@@ -6,11 +6,14 @@ public class DeclaracaoVariaveis {
 
         int minhaIdade;
         minhaIdade = 32;
-
         int suaIdade = 33;
+        int idadeAluno = 0, idadeProfessor = 0;
+
+        int totalIdades = minhaIdade + suaIdade + idadeAluno + idadeProfessor;
 
         System.out.println("Minha Idade " + minhaIdade);
         System.out.println("Sua Idade " + suaIdade);
+        System.out.println(totalIdades);
 
 
     }
