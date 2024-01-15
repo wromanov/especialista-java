@@ -5,6 +5,12 @@ public class EscrevendoComentarios {
 
         System.out.println("Hello World");
 
+        //Comentário de Linha
+
+        /*Comentário de muitas linhas,
+        * podemos fazer desta forma*/
+
+
     }
 
 
