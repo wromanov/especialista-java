@@ -21,9 +21,6 @@ public class AbreviacaoOperadoresAritmeticos {
         quantidadeProdutos /= 2;
         quantidadeProdutos %= 2;
 
-
-
-
         System.out.println(quantidadeProdutos);
 
 
