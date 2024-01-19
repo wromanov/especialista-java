@@ -4,10 +4,10 @@ public class DeclaracaoVariaveis {
 
     public static void main(String[] args) {
 
-        int minhaIdade;
-        minhaIdade = 32;
+        int minhaIdade = 32;
         int suaIdade = 33;
-        int idadeAluno = 0, idadeProfessor = 0;
+        int idadeAluno = 0;
+        int idadeProfessor = 0;
 
         int totalIdades = minhaIdade + suaIdade + idadeAluno + idadeProfessor;
 
