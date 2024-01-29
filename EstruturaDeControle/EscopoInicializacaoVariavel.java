@@ -1,6 +1,5 @@
 package EstruturaDeControle;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class EscopoInicializacaoVariavel {
