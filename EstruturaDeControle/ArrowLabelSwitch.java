@@ -9,7 +9,7 @@ public class ArrowLabelSwitch {
         String diaSemana = sc.nextLine();
         String horarioFuncionamento;
 
-        //Utilizando Arrow  Label não precisa mais utilizar a claúsula break.
+        //Utilizando Arrow Label não precisa mais utilizar a claúsula break.
 
         switch (diaSemana) {
             case "seg" -> horarioFuncionamento = "Fechado";
@@ -17,8 +17,16 @@ public class ArrowLabelSwitch {
             case "sab", "dom" -> horarioFuncionamento = "08h as 12h";
             default -> horarioFuncionamento = "Dia inválido";
         }
-        System.out.printf("Horário de funcionemento: %s%n", horarioFuncionamento);
+        //System.out.printf("Horário de funcionamento: %s%n", horarioFuncionamento);
 
+        //Switch Expression a partir do java 14
+        String horarioFuncionamento2 = switch (diaSemana) {
+            case "seg" -> "Fechado";
+            case "ter", "qua", "qui", "sex" -> "08h as 18h";
+            case "sab", "dom" -> "08h as 12h";
+            default -> "Dia inválido";
+        };
 
+        System.out.printf("Horário de funcionamento: %s%n", horarioFuncionamento2);
     }
 }
