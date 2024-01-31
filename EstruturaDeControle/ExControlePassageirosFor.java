@@ -2,7 +2,7 @@ package EstruturaDeControle;
 
 import java.util.Scanner;
 
-public class ExControlePassageiros {
+public class ExControlePassageirosFor {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
